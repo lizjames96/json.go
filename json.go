@@ -4,11 +4,11 @@ import "fmt"
 
 type Person struct {
 	Name string
-	Address  int
+	Add  int
 }
 
 func (p Person) String() string {
-	return fmt.Sprintf("%v (%v Address)", p.Name, p.Address)
+	return fmt.Sprintf("%v (%v Address)", p.Name, p.Add)
 }
 
 func main() {
